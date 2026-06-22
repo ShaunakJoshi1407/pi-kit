@@ -9,14 +9,14 @@
  */
 
 import type { SessionData, WasteSignal, SessionAnalysis } from "./types.ts";
-import { detectRedundantReads } from "./waste-signals/redundant-reads.ts";
-import { detectIdenticalArgs } from "./waste-signals/identical-args.ts";
-import { detectBashGrep } from "./waste-signals/bash-grep.ts";
-import { detectBashCat } from "./waste-signals/bash-cat.ts";
-import { detectErrorLoop } from "./waste-signals/error-loop.ts";
-import { detectNoBatch } from "./waste-signals/no-batch.ts";
-import { detectTurnInefficiency } from "./waste-signals/turn-inefficiency.ts";
-import { detectStructuralSearchUnderuse } from "./waste-signals/structural-underuse.ts";
+import { detectRedundantReads } from "./redundant-reads.ts";
+import { detectIdenticalArgs } from "./identical-args.ts";
+import { detectBashGrep } from "./bash-grep.ts";
+import { detectBashCat } from "./bash-cat.ts";
+import { detectErrorLoop } from "./error-loop.ts";
+import { detectNoBatch } from "./no-batch.ts";
+import { detectTurnInefficiency } from "./turn-inefficiency.ts";
+import { detectStructuralSearchUnderuse } from "./structural-underuse.ts";
 
 /**
  * Run all detectors on a parsed session.
