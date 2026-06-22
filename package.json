@@ -1,0 +1,20 @@
+{
+	"name": "pi-kit",
+	"version": "0.1.0",
+	"description": "Minimal pi extensions (AgentHarness, Caveman, Session Advice, custom-footer), write-a-skill skill, and themes",
+	"type": "module",
+	"pi": {
+		"extensions": [
+			"./extensions/agent-harness/index.ts",
+			"./extensions/caveman/index.ts",
+			"./extensions/session-advice/index.ts",
+			"./extensions/custom-footer/index.ts"
+		],
+		"skills": [
+			"./skills"
+		],
+		"themes": [
+			"./themes"
+		]
+	}
+}
