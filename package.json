@@ -8,7 +8,8 @@
 			"./extensions/agent-harness/index.ts",
 			"./extensions/caveman/index.ts",
 			"./extensions/session-advice/index.ts",
-			"./extensions/custom-footer/index.ts"
+			"./extensions/custom-footer/index.ts",
+			"./extensions/per-turn-tokens/index.ts"
 		],
 		"skills": [
 			"./skills"
